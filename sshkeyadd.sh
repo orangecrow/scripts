@@ -7,3 +7,5 @@ EOF
 eval "$(ssh-agent -s)"
 ssh-add id_rsa
 xclip -selection clipboard < id_rsa.pub
+git config --global user.email "wynalazca47@gmail.com"
+git config --global user.name "orangecrow"
