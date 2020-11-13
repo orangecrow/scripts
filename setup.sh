@@ -16,11 +16,15 @@ mkdir .config/bspwm
 mkdir .config/sxhkd
 #itd do bspwm i sxhkd
 
-git clone https://github.com/orangecrow/dotfiles
-
 git clone https://aur.archlinux.org/st.git
 cd st
 makepkg -sri
 # potem zabawa z configiem 
 echo "exec bspwm" > .xinitrc
+
+git clone https://github.com/orangecrow/scripts
+git clone https://github.com/orangecrow/dotfiles
+cd scripts
+sh sshkeyadd.sh
+#then add key in gitub
 
