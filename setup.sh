@@ -14,7 +14,7 @@ pacman -S sudo xorg bspwm sxhkd dmenu firefox gcc make xclip openssh base-devel
 mkdir .config
 mkdir .config/bspwm
 mkdir .config/sxhkd
-#itd do bspwm i sxhkd
+# potem zabawa z configiem 
 
 git clone https://aur.archlinux.org/st.git
 cd st
