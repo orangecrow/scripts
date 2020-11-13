@@ -9,7 +9,7 @@ usermod -aG wheel adam
 
 #login as adam
 
-pacman -S sudo xorg bspwm sxhkd dmenu firefox gcc make xclip openssh
+pacman -S sudo xorg bspwm sxhkd dmenu firefox gcc make xclip openssh base-devel
 
 mkdir .config
 mkdir .config/bspwm
